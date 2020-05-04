@@ -13,7 +13,7 @@ Having tested most of these settings, they work pretty well but Anime is a fickl
 | `/(\[Erai-raws\])/i`                                                      | 160 | Subs with multi such as German, French , Spanish, Italian, Russian, Arabic, Portuguese and English |
 | `/(\[Asenshi\]\|\[AkihitoSubs\])/i`                                       | 150 | FanSubs|
 | `/(\[HorribleSubs\]\|horriblesubs\|Sallysubs)/i`                          | 140 | Subs |
-| `/(\[AnimeRG\]\|\[Judas\]\|Commie\|GJM)/i`                                | 130 | Anime RG has Dual Audio and multiple audio such as German, French, Italian, Spanish, Arabic, Portuguese. \| Similar to Erai-raws with multi subs. \| Subs |
+| `/(\[AnimeRG\]\|\[Judas\]\|Commie\|GJM)/i`                                | 130 | Anime RG has Dual Audio and multiple audio such as German, French, Italian, Spanish, Arabic, Portuguese. \| Judas: Similar to Erai-raws with multi subs. \| Subs |
 | `/(\[SNSbu\]\|\[DB\]\|\[Coalgirls\]\|FFF\|FFFansubs\|BluRayDesuYo)/i`     | 120 | Subs, FanSubs|
 | `/(\[CH\])/i`                                                             | 110 | Little bit of Dual-Audio \| Mainly Fansub |
 | `/(\[Licca\])/i`                                                          | 100 | FanSubs |
