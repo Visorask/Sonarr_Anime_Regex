@@ -4,8 +4,8 @@ Having tested most of these settings, they work pretty well but Anime is a fickl
 
 | Term | Score | Notes |
 | :-- | :-- | :-- |
-| /(dual.audio\|dual-audio\|dual audio)/i                                 | 250 | |
-| /(\[Kametsu\]\|\[DHD\]\|\[LostYears\])/i                                | 200 | |
+| `/(dual.audio\|dual-audio\|dual audio)/i`                                 | 250 | |
+| `/(\[Kametsu\]\|\[DHD\]\|\[LostYears\])/i`                                | 200 | |
 | /(\[BluDragon\]\|\[Exiled-Destiny\]\|\[Cleo\])/i                        | 190 | |
 | /(\[GHOST\]\|\[xPearse\]\|\[MK\]\|\[Moodkiller\])/i                     | 180 | |
 | /(\[NPC\]\|\[A-L\])/i                                                   | 170 | |
