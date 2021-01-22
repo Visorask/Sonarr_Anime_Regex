@@ -50,7 +50,7 @@ We set this so when renames or new media is added it's easily identifiable as du
 | `/(\[GHOST\]\|\[xPearse\]\|\[MK\]\|\[Moodkiller\])/i`                     | 320 | Dual-Audio \| xPearse has some raws. |
 | `/(\[NPC\]\|\[A-L\])/i`                                                   | 300 | Dual-Audio \| NPC is mostly older. |
 | `/(\[Erai-raws\])/i`                                                      | 280 | Subs with multi such as German, French , Spanish, Italian, Russian, Arabic, Portuguese and English |
-| `/(\[AnimeTime\]\|\[Mysteria\])/i`                                        | 260 | Subs mainly but has Dual-Audio |
+| `/(\[Anime Time\]\|\[Mysteria\])/i`                                        | 260 | Subs mainly but has Dual-Audio |
 | `/(\[Asenshi\]\|\[AkihitoSubs\]\|\[ASW\])/i`                              | 240 | FanSubs, occasional dual audio for ASW/Akihito |
 | `/(\[SubsPlease\]\|\[Hi10\])/i`                                           | 220 | Subs, Replaces HorribleSubs below for newer content |
 | `/(\[HorribleSubs\]\|horriblesubs\|Sallysubs)/i`                          | 200 | Subs (Now defunct but stil good SubsPlease has taken the mantle.) |
