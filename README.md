@@ -46,8 +46,7 @@ We set this so when renames or new media is added it's easily identifiable as du
 | `/(\bMK\b\|lostyears\|exiled-destiny\|E-D\|BluDragon\|Kawairemux)/i`      | 460 | Dual-Audio |
 | `/(iahd\|anihls\|mkvultra\|\bdhd\b\|teneighty\|redblade\|haiku\|\bdhd\b\|walmart)/i` | 440 | Generic Dual-Audio
 | `/(\[DragsterPS\])/i`                                                     | 420 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
-
-| `/(\[Koten_Gars\])/i`                                                     | 400 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources.
+| `/(\[Koten_Gars\])/i`                                                     | 400 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources. |
 | `/(\[Hark0n\])/i`                                                         | 380 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality.
 | `/(\[GHOST\]\|\[xPearse\]\|\[Moodkiller\])/i`                             | 360 | Dual-Audio \| xPearse has some raws. |
 | `/(\[NPC\]\|\[A-L\])/i`                                                   | 340 | Dual-Audio \| NPC is mostly older. |
