@@ -17,7 +17,7 @@ Having tested most of these settings, they work pretty well but Anime is a fickl
 | `/(\[DragsterPS\])/i`                                                     | 400 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
 | `/(\[BluDragon\]\|\[Exiled-Destiny\]\|\[Cleo\])/i`                        | 380 | Dual-Audio |
 | `/(\[Koten_Gars\])/i`                                                     | 360 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources.
-| `/(\[Koten_Gars\])/i`                                                     | 340 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality.
+| `/(\[Hark0n\])/i`                                                     | 340 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality.
 | `/(\[GHOST\]\|\[xPearse\]\|\[MK\]\|\[Moodkiller\])/i`                     | 320 | Dual-Audio \| xPearse has some raws. |
 | `/(\[NPC\]\|\[A-L\])/i`                                                   | 300 | Dual-Audio \| NPC is mostly older. |
 | `/(\[Erai-raws\])/i`                                                      | 280 | Subs with multi such as German, French , Spanish, Italian, Russian, Arabic, Portuguese and English |
