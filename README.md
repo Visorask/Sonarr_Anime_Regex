@@ -5,16 +5,21 @@ Having tested most of these settings, they work pretty well but Anime is a fickl
 
 | Term | Score | Notes |
 | :-- | :-- | :-- |
-| `/(dual.audio\|dual-audio\|dual audio)/i`                                 | 250 | Dual-Audio |
-| `/(\[Kametsu\]\|\[DHD\]\|\[LostYears\])/i`                                | 200 | Dual-Audio |
+| `/(uncensored)/i`                                                         | 1000 or -1000 | This is for if you want the uncensored version of anime. If you would like it to be priority then set to 1000. If you do not want uncensored set it to -1000.
+| `/\b(dual)\b(?=[ ._-]audio\b)/i`                                          | 500 | Dual-Audio profile. This and multi-audio are basically one and the same. But we still want dual-audio above multi.|
+| `/\b(multi)\b(?=[ ._-]audio\b)/i`                                         | 300 | Multi-Audio profile |
+| `/(\[Kametsu\]\|\[DHD\]\|\[LostYears\]\|\[SCY\])/i`                       | 200 | Dual-Audio |
+| `/(\[DragsterPS\])/i`                                                     | 200 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
 | `/(\[BluDragon\]\|\[Exiled-Destiny\]\|\[Cleo\])/i`                        | 190 | Dual-Audio |
 | `/(\[GHOST\]\|\[xPearse\]\|\[MK\]\|\[Moodkiller\])/i`                     | 180 | Dual-Audio \| xPearse has some raws. |
 | `/(\[NPC\]\|\[A-L\])/i`                                                   | 170 | Dual-Audio \| NPC is mostly older. |
 | `/(\[Erai-raws\])/i`                                                      | 160 | Subs with multi such as German, French , Spanish, Italian, Russian, Arabic, Portuguese and English |
-| `/(\[Asenshi\]\|\[AkihitoSubs\])/i`                                       | 150 | FanSubs|
-| `/(\[HorribleSubs\]\|horriblesubs\|Sallysubs)/i`                          | 140 | Subs |
+| `/(\[AnimeTime\]\|\[Mysteria\])/i`                                        | 170 | Subs mainly but has Dual-Audio |
+| `/(\[Asenshi\]\|\[AkihitoSubs\]\|\[ASW\])/i`                              | 150 | FanSubs, occasional dual audio for ASW/Akihito |
+| `/(\[SubsPlease\]\|\[Hi10\])/i`                                           | 140 | Subs, Replaces HorribleSubs below for newer content |
+| `/(\[HorribleSubs\]\|horriblesubs\|Sallysubs)/i`                          | 135 | Subs (Now defunct but stil good SubsPlease has taken the mantle.) |
 | `/(\[AnimeRG\]\|\[Judas\]\|Commie\|GJM)/i`                                | 130 | Anime RG has Dual Audio and multiple audio such as German, French, Italian, Spanish, Arabic, Portuguese. \| Judas: Similar to Erai-raws with multi subs. \| Subs |
-| `/(\[SNSbu\]\|\[DB\]\|\[Coalgirls\]\|FFF\|FFFansubs\|BluRayDesuYo)/i`     | 120 | Subs, FanSubs|
+| `/(\[SNSbu\]\|\[DB\]\|\[Coalgirls\]\|FFF\|FFFansubs\|BluRayDesuYo)/i`     | 120 | Subs, FanSubs |
 | `/(\[CH\])/i`                                                             | 110 | Little bit of Dual-Audio \| Mainly Fansub |
 | `/(\[Licca\])/i`                                                          | 100 | FanSubs |
 | `/(\[Soldado\])/i`                                                        | 90  | FanSubs |
@@ -28,10 +33,26 @@ Having tested most of these settings, they work pretty well but Anime is a fickl
 | `/(\[Nii-sama\])/i`                                                       | 10  | FanSubs |
 
 ### Must Not Contain List
-```dub,
+The reason most of these are added is due to their shitty quality or just in general are not as good as other stuff that is out there. This can be tweaked as needed. Let me know if you run into any issues here. You should be able to just copy paste these in.
+```
+Dub,
+Dubbed,
+English Dub,
+English Dubbed,
 FuniDub,
+URANiME,
+SLAX,
+[CuaP],
+[EMBER],
+[PnPSubs],
+[ICEBLUE],
+[URANiME],
+[SLAX],
 [Golumpa],
 [KaiDubs],
 [PuyaSubs!],
-[English Dub],
 [Beatrice-Raws],
+```
+
+### Acknowledgements
+Most of my information and knowledge came from @Kaiser#0101 for the anime releases and best groups on discord and [TRaSH](https://trash-guides.info/) for his amazing regex.
