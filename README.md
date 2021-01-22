@@ -45,7 +45,7 @@ We set this so when renames or new media is added it's easily identifiable as du
 | `/(\[Kametsu\]\|\[DHD\]\|\[LostYears\]\|\[SCY\])/i`                       | 440 | Dual-Audio |
 | `/(\[DragsterPS\])/i`                                                     | 420 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
 | `/(\[BluDragon\]\|\[Exiled-Destiny\]\|\[Cleo\])/i`                        | 400 | Dual-Audio / Remuxes|
-| `/(?=[-]ZR[-]|[-]ZR)/i`                                                   | 380 | Dual-Audio / Remuxes |
+| `/(?=[-]ZR[-]\|[-]ZR)/i`                                                   | 380 | Dual-Audio / Remuxes |
 | `/(\[Koten_Gars\])/i`                                                     | 360 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources.
 | `/(\[Hark0n\])/i`                                                         | 340 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality.
 | `/(\[GHOST\]\|\[xPearse\]\|\[MK\]\|\[Moodkiller\])/i`                     | 320 | Dual-Audio \| xPearse has some raws. |
