@@ -42,29 +42,30 @@ We set this so when renames or new media is added it's easily identifiable as du
 ### Second Release Profile
 | Term | Score | Notes |
 | :-- | :-- | :-- |
-| `(/ANThELIa\|\bZR\b\|kametsu\|\bctr\b\|\bscy\b\|deanzel\|\bshir\b)/i`            | 440 | Dual-Audio |
-| `/(\bMK\b\|lostyears\|exiled-destiny\|E-D\|BluDragon\|Kawairemux)/i`           | 440 | Dual-Audio |
-| `/(\[DragsterPS\])/i`                                                     | 425 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
-| `/(iahd\|anihls\|mkvultra\|\bdhd\b\|teneighty\|redblade\|haiku\|\bdhd\b\|walmart)/i` | 420 | Generic Dual-Audio
-| `/(\[Koten_Gars\])/i`                                                     | 380 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources.
-| `/(\[Hark0n\])/i`                                                         | 360 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality.
-| `/(\[GHOST\]\|\[xPearse\]\|\[Moodkiller\])/i`                             | 340 | Dual-Audio \| xPearse has some raws. |
-| `/(\[NPC\]\|\[A-L\])/i`                                                   | 320 | Dual-Audio \| NPC is mostly older. |
-| `/(\[Cleo\])/i`                                                           | 300 | Dual-Audio |
-| `/(\[Erai-raws\])/i`                                                      | 280 | Subs with multi such as German, French , Spanish, Italian, Russian, Arabic, Portuguese and English |
-| `/(\[Anime Time\]\|\[Mysteria\])/i`                                       | 260 | Subs mainly but has Dual-Audio |
-| `/(\[Asenshi\]\|\[AkihitoSubs\]\|\[ASW\])/i`                              | 240 | FanSubs, occasional dual audio for ASW/Akihito |
-| `/(\[SubsPlease\]\|\[Hi10\])/i`                                           | 220 | Subs, Replaces HorribleSubs below for newer content |
-| `/(\[HorribleSubs\]\|horriblesubs\|Sallysubs)/i`                          | 200 | Subs (Now defunct but stil good SubsPlease has taken the mantle.) |
-| `/(\[AnimeRG\]\|\[Judas\]\|Commie\|GJM)/i`                                | 180 | Anime RG has Dual Audio and multiple audio such as German, French, Italian, Spanish, Arabic, Portuguese. \| Judas: Similar to Erai-raws with multi subs. \| Subs |
-| `/(\[SNSbu\]\|\[DB\]\|\[Coalgirls\]\|FFF\|FFFansubs\|BluRayDesuYo)/i`     | 160 | Subs, FanSubs |
-| `/(\[CH\])/i`                                                             | 140 | Little bit of Dual-Audio \| Mainly Fansub |
-| `/(\[Licca\]\|\[Soldado\])/i`                                             | 120 | FanSubs |
-| `/(\[SakuraCircle\])/i`                                                   | 100 | Subs |
-| `/(\[Orphan\]\|\[Yabai\])/i`                                              | 80 | FanSubs |
-| `/(\[kBaraka\])/i`                                                        | 60 | Subs |
-| `/(\[DeadFish\])/i`                                                       | 40 | Take 10bit fan-subbed videos from other groups and release an 8bit hardsubbed version of it. We do this because while 10bit offers quite a few advantages, not everyone's PS3, 360, hardware player, toaster etc can play it. |
-| `/(\[NewbSubs\]\|\[Nii-sama\]\|\[Nii-sama\])/i`                           | 20  | FanSubs |
+| `/(ANThELIa\|\bZR\b\|kametsu\|\bctr\b\|\bscy\b\|deanzel\|\bshir\b)/i`     | 460 | Dual-Audio |
+| `/(\bMK\b\|lostyears\|exiled-destiny\|E-D\|BluDragon\|Kawairemux)/i`      | 460 | Dual-Audio |
+| `/(iahd\|anihls\|mkvultra\|\bdhd\b\|teneighty\|redblade\|haiku\|\bdhd\b\|walmart)/i` | 440 | Generic Dual-Audio
+| `/(\[DragsterPS\])/i`                                                     | 420 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
+
+| `/(\[Koten_Gars\])/i`                                                     | 400 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources.
+| `/(\[Hark0n\])/i`                                                         | 380 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality.
+| `/(\[GHOST\]\|\[xPearse\]\|\[Moodkiller\])/i`                             | 360 | Dual-Audio \| xPearse has some raws. |
+| `/(\[NPC\]\|\[A-L\])/i`                                                   | 340 | Dual-Audio \| NPC is mostly older. |
+| `/(\[Cleo\])/i`                                                           | 320 | Dual-Audio |
+| `/(\[Erai-raws\])/i`                                                      | 300 | Subs with multi such as German, French , Spanish, Italian, Russian, Arabic, Portuguese and English |
+| `/(\[Anime Time\]\|\[Mysteria\])/i`                                       | 280 | Subs mainly but has Dual-Audio |
+| `/(\[Asenshi\]\|\[AkihitoSubs\]\|\[ASW\])/i`                              | 260 | FanSubs, occasional dual audio for ASW/Akihito |
+| `/(\[SubsPlease\]\|\[Hi10\])/i`                                           | 240 | Subs, Replaces HorribleSubs below for newer content |
+| `/(\[HorribleSubs\]\|horriblesubs\|Sallysubs)/i`                          | 220 | Subs (Now defunct but stil good SubsPlease has taken the mantle.) |
+| `/(\[AnimeRG\]\|\[Judas\]\|Commie\|GJM)/i`                                | 200 | Anime RG has Dual Audio and multiple audio such as German, French, Italian, Spanish, Arabic, Portuguese. \| Judas: Similar to Erai-raws with multi subs. \| Subs |
+| `/(\[SNSbu\]\|\[DB\]\|\[Coalgirls\]\|FFF\|FFFansubs\|BluRayDesuYo)/i`     | 180 | Subs, FanSubs |
+| `/(\[CH\])/i`                                                             | 160 | Little bit of Dual-Audio \| Mainly Fansub |
+| `/(\[Licca\]\|\[Soldado\])/i`                                             | 140 | FanSubs |
+| `/(\[SakuraCircle\])/i`                                                   | 120 | Subs |
+| `/(\[Orphan\]\|\[Yabai\])/i`                                              | 100 | FanSubs |
+| `/(\[kBaraka\])/i`                                                        | 80 | Subs |
+| `/(\[DeadFish\])/i`                                                       | 60 | Take 10bit fan-subbed videos from other groups and release an 8bit hardsubbed version of it. We do this because while 10bit offers quite a few advantages, not everyone's PS3, 360, hardware player, toaster etc can play it. |
+| `/(\[NewbSubs\]\|\[Nii-sama\]\|\[Nii-sama\])/i`                           | 40 | FanSubs |
 
 ### Must Not Contain List (Added in with the second release profile)
 The reason most of these are added is due to their shitty quality or just in general are not as good as other stuff that is out there. This can be tweaked as needed. Let me know if you run into any issues here. You should be able to just copy paste these in.
