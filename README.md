@@ -30,8 +30,8 @@ We need to set HDTV-1080p | HDTV-720p above WEB release as some groups have rele
 | Term | Score | Notes |
 | :-- | :-- | :-- |
 | `/(uncensored)/i`                                                         | 1000 or -1000 | This is for if you want the uncensored version of anime. If you would like it to be priority then set to 1000. If you do not want uncensored set it to -1000.
-| `/\b(dual)([ ._-]audio\b)/i`                                          | 500 | Dual-Audio profile. This and multi-audio are basically one and the same. But we still want dual-audio above multi.|
-| `/\b(multi)([ ._-]audio\b)/i`                                         | 400 | Multi-Audio profile |
+| `/\b(dual)(.?audio\b)|EN\+JA|JA\+EN/i`                                    | 500 | Dual-Audio profile. This and multi-audio are basically one and the same. But we still want dual-audio above multi. The EN+JA and JA+EN will only work if you follow my naming scheme above.|
+| `/\b(multi)([ ._-]audio\b)/i`                                             | 400 | Multi-Audio profile |
 
 ### Include Preferred when Renaming
 We set this so when renames or new media is added it's easily identifiable as dual/multi audio.
@@ -42,16 +42,17 @@ We set this so when renames or new media is added it's easily identifiable as du
 ### Second Release Profile
 | Term | Score | Notes |
 | :-- | :-- | :-- |
-| `/(\[Kametsu\]\|\[DHD\]\|\[LostYears\]\|\[SCY\])/i`                       | 440 | Dual-Audio |
-| `/(?=[-]ZR[-]\|[-]ZR)/i`                                                  | 420 | Dual-Audio / Remuxes |
-| `/(\[DragsterPS\])/i`                                                     | 400 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
-| `/(\[BluDragon\]\|\[Exiled-Destiny\]\|\[Cleo\])/i`                        | 380 | Dual-Audio / Remuxes|
-| `/(\[Koten_Gars\])/i`                                                     | 360 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources.
-| `/(\[Hark0n\])/i`                                                         | 340 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality.
-| `/(\[GHOST\]\|\[xPearse\]\|\[MK\]\|\[Moodkiller\])/i`                     | 320 | Dual-Audio \| xPearse has some raws. |
-| `/(\[NPC\]\|\[A-L\])/i`                                                   | 300 | Dual-Audio \| NPC is mostly older. |
+| `/(ANThELIa|\bZR\b|kametsu|\bctr\b|\bscy\b|deanzel|\bshir\b/i`            | 440 | Dual-Audio |
+| `/(\bMK\b|lostyears|exiled-destiny|E-D|BluDragon|Kawairemux)/i`           | 440 | Dual-Audio |
+| `/(\[DragsterPS\])/i`                                                     | 425 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
+| `/(iahd|anihls|mkvultra|\bdhd\b|teneighty|redblade|haiku|\bdhd\b|walmart)/i` | 420 | Generic Dual-Audio
+| `/(\[Koten_Gars\])/i`                                                     | 380 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources.
+| `/(\[Hark0n\])/i`                                                         | 360 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality.
+| `/(\[GHOST\]\|\[xPearse\]\|\[Moodkiller\])/i`                             | 340 | Dual-Audio \| xPearse has some raws. |
+| `/(\[NPC\]\|\[A-L\])/i`                                                   | 320 | Dual-Audio \| NPC is mostly older. |
+| `/(\[Cleo\])/i`                                                           | 300 | Dual-Audio |
 | `/(\[Erai-raws\])/i`                                                      | 280 | Subs with multi such as German, French , Spanish, Italian, Russian, Arabic, Portuguese and English |
-| `/(\[Anime Time\]\|\[Mysteria\])/i`                                        | 260 | Subs mainly but has Dual-Audio |
+| `/(\[Anime Time\]\|\[Mysteria\])/i`                                       | 260 | Subs mainly but has Dual-Audio |
 | `/(\[Asenshi\]\|\[AkihitoSubs\]\|\[ASW\])/i`                              | 240 | FanSubs, occasional dual audio for ASW/Akihito |
 | `/(\[SubsPlease\]\|\[Hi10\])/i`                                           | 220 | Subs, Replaces HorribleSubs below for newer content |
 | `/(\[HorribleSubs\]\|horriblesubs\|Sallysubs)/i`                          | 200 | Subs (Now defunct but stil good SubsPlease has taken the mantle.) |
@@ -67,25 +68,13 @@ We set this so when renames or new media is added it's easily identifiable as du
 
 ### Must Not Contain List (Added in with the second release profile)
 The reason most of these are added is due to their shitty quality or just in general are not as good as other stuff that is out there. This can be tweaked as needed. Let me know if you run into any issues here. You should be able to just copy paste these in.
+
 ```
-Dub,
-Dubbed,
-English Dub,
-English Dubbed,
-FuniDub,
-URANiME,
-SLAX,
-[CuaP],
-[EMBER],
-[PnPSubs],
-[ICEBLUE],
-[URANiME],
-[SLAX],
-[Golumpa],
-[KaiDubs],
-[PuyaSubs!],
-[Beatrice-Raws],
+/(CuaP|EMBER|PnPSubs|ICEBLUE|URANiME|SLAX)/i,
+/(Golumpa|KaiDubs|PuyaSubs|Beatrice-Raws)/i,
+/(?=(english|funi)).*(dub|dubbed)|\b(dub|dubbed)\b/i
 ```
+
 ### Image of above
 We do not set preferred words here as it can cause issues with long filenames.
 
