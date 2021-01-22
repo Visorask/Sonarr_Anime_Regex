@@ -3,12 +3,41 @@
 ## Dual-Audio Regex
 Having tested most of these settings, they work pretty well but Anime is a fickle beast to toy with so be warned. 
 
+---
+
+## Media Management
+There a few settings which make life a lot easier when tracking down and keeping certain information for your Anime. A lot of this is from [TRaSH](https://trash-guides.info/) with tweaks to make it work better with HamaAgent for plex.
+| Name | Input | Notes |
+| :-- | :-- | :-- |
+| Anime Episode Format | `{Series TitleYear} - S{season:00}E{episode:00} - {absolute:000} - {Episode CleanTitle} [{Preferred Words }{Quality Full}]{[MediaInfo VideoDynamicRange]}[{MediaInfo VideoBitDepth}bit]{[MediaInfo VideoCodec]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[MediaInfo AudioLanguages]}{-Release Group}` | Has all necessary information and a little extra if you needed to rebuild. |
+| Series Folder Format | `{Series Title}` | We do not want year here as it messes with the HamaAgent and how it identifies the anime. [Reference](https://forums.plex.tv/t/rel-http-anidb-metadata-agent-hama/40470/2043?u=visoseph) |
+| Season Folder Format | `Season {season:00}` | Standard format that best covers most uses. |
+| Multi-Episode Style | `Scene     S01E01-E02-E03` | 
+
+### Example image of above
+![Example image of above](images/MediaManage.png)
+
+---
+
+## Quality Profile
+We need to set HDTV-1080p | HDTV-720p above WEB release as some groups have releases with incorrectly tagged media which causes issues when it thinks it is the best release.
+
+![Image](images/QP.png)
+
+---
+
 ### First Release Profile
 | Term | Score | Notes |
 | :-- | :-- | :-- |
 | `/(uncensored)/i`                                                         | 1000 or -1000 | This is for if you want the uncensored version of anime. If you would like it to be priority then set to 1000. If you do not want uncensored set it to -1000.
 | `/\b(dual)\b(?=[ ._-]audio\b)/i`                                          | 500 | Dual-Audio profile. This and multi-audio are basically one and the same. But we still want dual-audio above multi.|
 | `/\b(multi)\b(?=[ ._-]audio\b)/i`                                         | 400 | Multi-Audio profile |
+
+### Include Preferred when Renaming
+We set this so when renames or new media is added it's easily identifiable as dual/multi audio.
+![Image](images/FirstRP.png)
+
+---
 
 ### Second Release Profile
 | Term | Score | Notes |
@@ -56,6 +85,12 @@ SLAX,
 [PuyaSubs!],
 [Beatrice-Raws],
 ```
+### Image of above
+We do not set preferred words here as it can cause issues with long filenames.
+
+![Image](images/RP2.png)
+
+---
 
 ### Acknowledgements
 Most of my information and knowledge came from @Kaiser#0101 for the anime releases and best groups on discord and [TRaSH](https://trash-guides.info/) for his amazing regex.
