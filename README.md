@@ -84,4 +84,4 @@ We do not set preferred words here as it can cause issues with long filenames.
 ---
 
 ### Acknowledgements
-Most of my information and knowledge came from @Kaiser#0101 for the anime releases and best groups on discord and [TRaSH](https://trash-guides.info/) for his amazing regex.
+Most of my information and knowledge came from Kaiser#0101 and rg9400#7462 for the anime releases and best groups on discord and [TRaSH](https://trash-guides.info/) for his amazing regex.
