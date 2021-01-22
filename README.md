@@ -42,10 +42,10 @@ We set this so when renames or new media is added it's easily identifiable as du
 ### Second Release Profile
 | Term | Score | Notes |
 | :-- | :-- | :-- |
-| `/ANThELIa\|\bZR\b\|kametsu\|\bctr\b\|\bscy\b\|deanzel\|\bshir\b/i`            | 440 | Dual-Audio |
-| `/\bMK\b\|lostyears\|exiled-destiny\|E-D\|BluDragon\|Kawairemux/i`           | 440 | Dual-Audio |
+| `(/ANThELIa\|\bZR\b\|kametsu\|\bctr\b\|\bscy\b\|deanzel\|\bshir\b)/i`            | 440 | Dual-Audio |
+| `/(\bMK\b\|lostyears\|exiled-destiny\|E-D\|BluDragon\|Kawairemux)/i`           | 440 | Dual-Audio |
 | `/(\[DragsterPS\])/i`                                                     | 425 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
-| `/iahd\|anihls\|mkvultra\|\bdhd\b\|teneighty\|redblade\|haiku\|\bdhd\b\|walmart/i` | 420 | Generic Dual-Audio
+| `/(iahd\|anihls\|mkvultra\|\bdhd\b\|teneighty\|redblade\|haiku\|\bdhd\b\|walmart)/i` | 420 | Generic Dual-Audio
 | `/(\[Koten_Gars\])/i`                                                     | 380 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources.
 | `/(\[Hark0n\])/i`                                                         | 360 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality.
 | `/(\[GHOST\]\|\[xPearse\]\|\[Moodkiller\])/i`                             | 340 | Dual-Audio \| xPearse has some raws. |
