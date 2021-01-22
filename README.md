@@ -10,7 +10,7 @@ There a few settings which make life a lot easier when tracking down and keeping
 | Name | Input | Notes |
 | :-- | :-- | :-- |
 | Anime Episode Format | `{Series TitleYear} - S{season:00}E{episode:00} - {absolute:000} - {Episode CleanTitle} [{Preferred Words }{Quality Full}]{[MediaInfo VideoDynamicRange]}[{MediaInfo VideoBitDepth}bit]{[MediaInfo VideoCodec]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[MediaInfo AudioLanguages]}{-Release Group}` | Has all necessary information and a little extra if you needed to rebuild. |
-| Series Folder Format | `{Series Title}` | We do not want year here as it messes with the HamaAgent and how it identifies the anime. [Reference](https://forums.plex.tv/t/rel-http-anidb-metadata-agent-hama/40470/2043?u=visoseph) |
+| Series Folder Format | `{Series TitleTheYear} [tvdb-{TvdbId}]` | ~~We do not want year here as it messes with the HamaAgent and how it identifies the anime. [Reference](https://forums.plex.tv/t/rel-http-anidb-metadata-agent-hama/40470/2043?u=visoseph)~~ I'm a dummy. Adding year back in with tvdb id allows matching to be correct. Thanks salty.  |
 | Season Folder Format | `Season {season:00}` | Standard format that best covers most uses. |
 | Multi-Episode Style | `Scene     S01E01-E02-E03` | 
 
@@ -43,9 +43,9 @@ We set this so when renames or new media is added it's easily identifiable as du
 | Term | Score | Notes |
 | :-- | :-- | :-- |
 | `/(\[Kametsu\]\|\[DHD\]\|\[LostYears\]\|\[SCY\])/i`                       | 440 | Dual-Audio |
-| `/(\[DragsterPS\])/i`                                                     | 420 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
-| `/(\[BluDragon\]\|\[Exiled-Destiny\]\|\[Cleo\])/i`                        | 400 | Dual-Audio / Remuxes|
-| `/(?=[-]ZR[-]\|[-]ZR)/i`                                                   | 380 | Dual-Audio / Remuxes |
+| `/(?=[-]ZR[-]\|[-]ZR)/i`                                                  | 420 | Dual-Audio / Remuxes |
+| `/(\[DragsterPS\])/i`                                                     | 400 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
+| `/(\[BluDragon\]\|\[Exiled-Destiny\]\|\[Cleo\])/i`                        | 380 | Dual-Audio / Remuxes|
 | `/(\[Koten_Gars\])/i`                                                     | 360 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources.
 | `/(\[Hark0n\])/i`                                                         | 340 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality.
 | `/(\[GHOST\]\|\[xPearse\]\|\[MK\]\|\[Moodkiller\])/i`                     | 320 | Dual-Audio \| xPearse has some raws. |
