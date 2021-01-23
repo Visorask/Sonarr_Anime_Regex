@@ -62,7 +62,7 @@ We set this so when renames or new media is added it's easily identifiable as du
 | `/(\[Anime Time\]\|\[Mysteria\])/i`                                       | 280 | Subs mainly but has Dual-Audio |
 | `/(\[Asenshi\]\|\[AkihitoSubs\]\|\[ASW\])/i`                              | 260 | FanSubs, occasional dual audio for ASW/Akihito |
 | `/(\[SubsPlease\]\|\[Hi10\])/i`                                           | 240 | Subs, Replaces HorribleSubs below for newer content |
-| `/\b(horriblesubs|sallysubs)\b/i`                          | 220 | Subs (Now defunct but stil good SubsPlease has taken the mantle.) |
+| `/\b(horriblesubs\|sallysubs)\b/i`                          | 220 | Subs (Now defunct but stil good SubsPlease has taken the mantle.) |
 | `/(\[AnimeRG\]\|\[Judas\]\|Commie\|GJM)/i`                                | 200 | Anime RG has Dual Audio and multiple audio such as German, French, Italian, Spanish, Arabic, Portuguese. \| Judas: Similar to Erai-raws with multi subs. \| Subs |
 | `/(\[SNSbu\]\|\[DB\]\|\[Coalgirls\]\|FFF\|FFFansubs\|BluRayDesuYo)/i`     | 180 | Subs, FanSubs |
 | `/(\[CH\])/i`                                                             | 160 | Little bit of Dual-Audio \| Mainly Fansub |
