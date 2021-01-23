@@ -7,6 +7,7 @@ Having tested most of these settings, they work pretty well but Anime is a fickl
 ---
 
 ## Anime Delete
+
 If you have issues with extra files being download like NCED or NCOP then check [here](Anime_Delete.md)
 
 ## Media Management
@@ -54,7 +55,7 @@ We set this so when renames or new media is added it's easily identifiable as du
 | :-- | :-- | :-- |
 | `/(ANThELIa\|\bZR\b\|kametsu\|\bctr\b\|\bscy\b\|deanzel\|\bshir\b)/i`     | 460 | Dual-Audio |
 | `/(\bMK\b\|lostyears\|exiled-destiny\|E-D\|BluDragon\|Kawairemux)/i`      | 460 | Dual-Audio |
-| `/(iahd\|anihls\|mkvultra\|\bdhd\b\|teneighty\|redblade\|haiku\|\bdhd\b\|walmart)/i` | 440 | Generic Dual-Audio |
+| `/(iahd\|anihls\|mkvultra\|\bdhd\b\|teneighty\|redblade\|haiku\|\bdhd\b)/i` | 440 | Generic Dual-Audio |
 | `/(\[DragsterPS\])/i`                                                     | 420 | Multi-Audio - Multi-Subs (Usually from Netflix or similar) |
 | `/(\[Koten_Gars\])/i`                                                     | 400 | Dual-Audio \| Mostly older content but has some newer stuff. Really good quality and searches different sources. |
 | `/\b(Hark0n)\b/i`                                                         | 380 | Dual-Audio \| Mostly older and limited, but what he does have is amazing quality. |
@@ -82,7 +83,7 @@ The reason most of these are added is due to their shitty quality or just in gen
 
 ```bash
 /(CuaP|EMBER|PnPSubs|ICEBLUE|URANiME|SLAX)/i,
-/(Golumpa|KaiDubs|PuyaSubs|Beatrice-Raws|ohys-raws)/i,
+/\b(Beatrice|ohys|Kawaiika|neko|LowPower)\b(?=[ ._-]?(raws)\b)/i,
 /(?=(english|funi)).*(dub|dubbed)|\b(dub|dubbed)\b/i
 ```
 
