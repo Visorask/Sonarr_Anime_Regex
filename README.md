@@ -24,7 +24,7 @@ There a few settings which make life a lot easier when tracking down and keeping
 
 ## Quality Profile
 
-We need to set HDTV-1080p | HDTV-720p above WEB release as some groups have releases with incorrectly tagged media which causes issues when it thinks it is the best release.
+We need to set add HDTV-1080p into the same group as WEB-DL and WEBRip 1080p so that it will download correctly and not upgrade past HDTV-1080P if Preferred Words does not allow it.
 
 ![Image](images/QP.png)
 
