@@ -72,7 +72,7 @@ The reason most of these are added is due to their shitty quality or just in gen
 
 ```
 /(CuaP|EMBER|PnPSubs|ICEBLUE|URANiME|SLAX)/i,
-/(Golumpa|KaiDubs|PuyaSubs|Beatrice-Raws)/i,
+/(Golumpa|KaiDubs|PuyaSubs|Beatrice-Raws|ohys-raws)/i,
 /(?=(english|funi)).*(dub|dubbed)|\b(dub|dubbed)\b/i
 ```
 
