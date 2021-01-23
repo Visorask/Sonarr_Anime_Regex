@@ -11,7 +11,7 @@ OP's
 
 Then I have a solution that will delete these files and get rid of them and not have to worry about them cluttering up your Auto or Manual import process.
 
-In the repo there is a file called `anime_delete` and it will remove all of these files for you through a custom connection to sonarr.
+In the repo there is a file called `anime_delete` [Link Here](anime_delete) and it will remove all of these files for you through a custom connection to sonarr.
 
 Place this file inside whatever directory you would like and that sonarr has access to.
 *Keep in mind if you use docker you will have to put it somewhere the docker container has a volume for*
