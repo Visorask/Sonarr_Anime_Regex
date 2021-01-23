@@ -26,7 +26,7 @@ There a few settings which make life a lot easier when tracking down and keeping
 
 We need to set add HDTV-1080p into the same group as WEB-DL and WEBRip 1080p so that it will download correctly and not upgrade past HDTV-1080P if Preferred Words does not allow it.
 
-![Image](images/QP1.png)
+![Stuff](images/QP1.png)
 
 ---
 
