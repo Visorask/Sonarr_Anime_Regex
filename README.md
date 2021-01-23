@@ -30,9 +30,9 @@ We need to set HDTV-1080p | HDTV-720p above WEB release as some groups have rele
 | Term | Score | Notes |
 | :-- | :-- | :-- |
 | `/\b(uncensored)\b/i`                                                         | 1000 or -1000 | This is for if you want the uncensored version of anime. If you would like it to be priority then set to 1000. If you do not want uncensored set it to -1000.
-| `/\b(dual)(.?audio\b)\|EN\+JA\|JA\+EN/i`                                  | 500 | Dual-Audio profile. This and multi-audio are basically one and the same. But we still want dual-audio above multi. The EN+JA and JA+EN will only work if you follow my naming scheme above. |
-| `/\b(dual)(.?audio\b)/i`                                                  | 500 | * Only use this if you do not want to use the above
-| `/\b(multi)(.?audio\b)/i`                                                | 400 | Multi-Audio profile |
+| `/\b(dual)([ ._-]audio\b)\|EN\+JA\|JA\+EN/i`                                  | 500 | Dual-Audio profile. This and multi-audio are basically one and the same. But we still want dual-audio above multi. The EN+JA and JA+EN will only work if you follow my naming scheme above. |
+| `/\b(dual)([ ._-]audio\b)/i`                                                  | 500 | * Only use this if you do not want to use the above
+| `/\b(multi)([ ._-]audio\b)/i`                                                | 400 | Multi-Audio profile |
 
 ### Include Preferred when Renaming
 We set this so when renames or new media is added it's easily identifiable as dual/multi audio.
