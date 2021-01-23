@@ -6,6 +6,9 @@ Having tested most of these settings, they work pretty well but Anime is a fickl
 
 ---
 
+## Anime Delete
+If you have issues with extra files being download like NCED or NCOP then check [here](Anime_Delete.md)
+
 ## Media Management
 
 There a few settings which make life a lot easier when tracking down and keeping certain information for your Anime. A lot of this is from [TRaSH](https://trash-guides.info/) with tweaks to make it work better with HamaAgent for plex.
