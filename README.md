@@ -82,7 +82,7 @@ We set this so when renames or new media is added it's easily identifiable as du
 The reason most of these are added is due to their shitty quality or just in general are not as good as other stuff that is out there. This can be tweaked as needed. Let me know if you run into any issues here. You should be able to just copy paste these in.
 
 ```bash
-/(CuaP|EMBER|PnPSubs|ICEBLUE|URANiME|SLAX)/i,
+/(CuaP|EMBER|PnPSubs|ICEBLUE|URANiME|SLAX|Golumpa|KaiDubs)/i,
 /\b(Beatrice|ohys|Kawaiika|neko|LowPower)\b(?=[ ._-]?(raws)\b)/i,
 /(?=(english|funi)).*(dub|dubbed)|\b(dub|dubbed)\b/i
 ```
