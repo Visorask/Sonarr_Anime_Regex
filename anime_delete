@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-# Set this to your completed location for anime. Usually something like this if using Cloudbox /mnt/local/downloads/nzbs/nzbget/completed/sonarranime
+# Set this to your completed location for Anime.
+# Usually one of the followping paths:
+# Dockers -> /data/{usenet|torrents}/anime
+# Cloudbox -> /mnt/local/downloads/nzbs/nzbget/completed/sonarranime
 location="/your/path/here"
 
 find $location -type f \( -iname "*op[0-9]*" -o -iname "*nced*" -o -iname "*ncop*" -o -iname "*music video*" \) -exec rm -rf {} \;
