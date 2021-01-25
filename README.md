@@ -1,3 +1,8 @@
+# Guide has now officially moved to [TRaSH Guides](https://trash-guides.info/Sonarr/V3/Sonarr-Release-Profile-RegEx-Anime/)
+
+##This repo is now deprecated.
+
+
 # Anime Regex for Sonarr
 
 ## Dual-Audio Regex
